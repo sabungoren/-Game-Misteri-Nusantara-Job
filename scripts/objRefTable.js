@@ -15,15 +15,17 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
+		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
 		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Sprite.Acts.SetBoolInstanceVar,
-		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
+		C3.Plugins.Sprite.Acts.MoveToTop,
 		C3.Plugins.Sprite.Acts.SetWidth,
 		C3.Plugins.Touch.Exps.X,
 		C3.Plugins.Touch.Exps.Y,
 		C3.Plugins.Sprite.Acts.SetAngle,
 		C3.Plugins.Touch.Cnds.OnTouchEnd,
 		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
 		C3.Plugins.Sprite.Acts.Destroy
 	];
 };
@@ -42,6 +44,7 @@ self.C3_JsPropNameTable = [
 	{Aktif: 0},
 	{Garis: 0},
 	{Touch: 0},
+	{Terhubung: 0},
 	{titik_kiri: 0},
 	{titik_kanan: 0}
 ];
